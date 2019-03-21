@@ -59,6 +59,7 @@ $(function(){
         checkBanner();
     });
 
+    checkClient();
     //第一页 banner动画
     checkBanner();
     function checkBanner(){
@@ -198,3 +199,10 @@ function checkScroll(){
 $("#goTop").click(function(){
     $('body,html').animate({scrollTop:0},500);
 })
+
+//检测客户端类型
+function checkClient(){
+    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))){
+        $(".video").hide();
+    }
+}
