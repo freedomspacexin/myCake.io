@@ -118,6 +118,7 @@
 
 .main-banner .banner-content .banner-title {
     font-size: 60px;
+    text-align: center;
     color: #FFFFFF;
     line-height: 60px;
     opacity: 0;
@@ -130,6 +131,7 @@
 }
 .main-banner .banner-content .banner-slogan {
     font-size: 32px;
+    text-align: center;
     color: #FFFFFF;
     line-height: 32px;
     padding-top: 36px;
@@ -145,6 +147,7 @@
 .main-banner .banner-content .banner-download{
     padding-top: 20px;
     opacity: 0;
+    margin: 0 auto;
     -webkit-transform: translateY(50px);
     transform: translateY(50px);
     -webkit-transition: opacity .35s ease-in-out .36s, -webkit-transform .35s ease-in-out .36s;
